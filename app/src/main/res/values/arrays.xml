@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="searchBy_array">
+        <item>Par adresse</item>
+        <item>Par service offert</item>
+        <item>Par heures d\'ouvertures</item>
+    </string-array>
+</resources>

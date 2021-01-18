@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_types">
+        <item>Permis de conduire</item>
+        <item>Carte santé</item>
+        <item>Pièce d\'identité</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/serviceRequestA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="87dp"
+        android:text="Requete de"
+        app:layout_constraintBottom_toTopOf="@+id/nomA"
+        app:layout_constraintEnd_toStartOf="@+id/serviceRequestB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/serviceRequestB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="31dp"
+        android:text="ServiceRequest"
+        app:layout_constraintStart_toEndOf="@+id/serviceRequestA"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nomA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="5dp"
+        android:text="Nom: "
+        app:layout_constraintBottom_toTopOf="@+id/dobA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serviceRequestA" />
+
+    <TextView
+        android:id="@+id/nomB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="2dp"
+        android:text="name"
+        app:layout_constraintStart_toEndOf="@+id/nomA"
+        app:layout_constraintTop_toBottomOf="@+id/serviceRequestB" />
+
+    <TextView
+        android:id="@+id/dobA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="5dp"
+        android:text="Date de naissance: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomA" />
+
+    <TextView
+        android:id="@+id/dobB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="7dp"
+        android:text="dob"
+        app:layout_constraintStart_toEndOf="@+id/dobA"
+        app:layout_constraintTop_toBottomOf="@+id/nomB" />
+
+    <TextView
+        android:id="@+id/typePermisA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="44dp"
+        android:text="Type de permis: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dobA" />
+
+    <TextView
+        android:id="@+id/typePermisB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="40dp"
+        android:text="typePermis"
+        app:layout_constraintStart_toEndOf="@+id/typePermisA"
+        app:layout_constraintTop_toBottomOf="@+id/dobB" />
+
+    <TextView
+        android:id="@+id/preuveDomicileA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="38dp"
+        android:text="Preuve de domicile: "
+        app:layout_constraintEnd_toStartOf="@+id/preuveDomicileB"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typePermisA" />
+
+    <ImageView
+        android:id="@+id/preuveDomicileB"
+        android:layout_width="215dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toEndOf="@+id/preuveDomicileA"
+        app:layout_constraintTop_toBottomOf="@+id/typePermisB"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/preuveStatutA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="52dp"
+        android:text="Preuve de statut: "
+        app:layout_constraintEnd_toStartOf="@+id/preuveStatutB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preuveDomicileA" />
+
+    <ImageView
+        android:id="@+id/preuveStatutB"
+        android:layout_width="215dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toEndOf="@+id/preuveStatutA"
+        app:layout_constraintTop_toBottomOf="@+id/preuveDomicileB"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/photoClientA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="155dp"
+        android:text="Photo du client: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/photoClientB"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preuveStatutA"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/photoClientB"
+        android:layout_width="215dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="53dp"
+        app:layout_constraintStart_toEndOf="@+id/photoClientA"
+        app:layout_constraintTop_toBottomOf="@+id/preuveStatutB"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/addressA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="12dp"
+        android:text="Addresse: "
+        app:layout_constraintBottom_toTopOf="@+id/typePermisA"
+        app:layout_constraintEnd_toStartOf="@+id/addressB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dobA" />
+
+    <TextView
+        android:id="@+id/addressB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="12dp"
+        android:text="address"
+        app:layout_constraintStart_toEndOf="@+id/addressA"
+        app:layout_constraintTop_toBottomOf="@+id/dobB" />
+</androidx.constraintlayout.widget.ConstraintLayout>

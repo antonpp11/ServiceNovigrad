@@ -1,0 +1,537 @@
+{
+  "accounts" : [ {
+    "email" : "admin@admin.com",
+    "password" : "1234",
+    "userType" : "a",
+    "username" : "admin"
+  }, {
+    "email" : "phil@gmail.com",
+    "password" : "1234",
+    "succursaleAddress" : "J8A1T3",
+    "userType" : "e",
+    "username" : "phil"
+  }, {
+    "email" : "zoe@gmail.com",
+    "password" : "1234",
+    "succursaleAddress" : "",
+    "userType" : "e",
+    "username" : "zoe"
+  }, {
+    "email" : "anton@gmail.com",
+    "password" : "1234",
+    "succursaleAddress" : "J9A1R1",
+    "userType" : "e",
+    "username" : "anton"
+  }, {
+    "email" : "client1@gmail.com",
+    "password" : "1234",
+    "serviceRequests" : [ {
+      "approved" : false,
+      "inProgress" : false,
+      "serviceRequestName" : "Carte Sante",
+      "succursale" : "J9A1R1"
+    }, {
+      "approved" : true,
+      "inProgress" : false,
+      "serviceRequestName" : "Piece Identite",
+      "succursale" : "J9A1R1"
+    } ],
+    "userType" : "c",
+    "username" : "client1"
+  }, {
+    "email" : "paul@gmail.com",
+    "password" : "1234",
+    "serviceRequests" : [ {
+      "approved" : true,
+      "inProgress" : false,
+      "serviceRequestName" : "Carte Sante",
+      "succursale" : "J8A1T3"
+    } ],
+    "userType" : "c",
+    "username" : "paul"
+  }, {
+    "email" : "emp@gmail.com",
+    "password" : "1234",
+    "succursaleAddress" : "K1L9C8",
+    "userType" : "e",
+    "username" : "emp"
+  }, {
+    "email" : "client2@gmail.com",
+    "password" : "1234",
+    "serviceRequests" : [ {
+      "approved" : false,
+      "inProgress" : true,
+      "serviceRequestName" : "Passeport",
+      "succursale" : "J9A1R3"
+    } ],
+    "userType" : "c",
+    "username" : "Dandelion"
+  }, {
+    "email" : "alex@gmail.com",
+    "password" : "1234",
+    "succursaleAddress" : "",
+    "userType" : "e",
+    "username" : "alex"
+  }, {
+    "email" : "josee@gmail.com",
+    "password" : "1234",
+    "serviceRequests" : [ {
+      "approved" : true,
+      "inProgress" : false,
+      "serviceRequestName" : "Piece Identite",
+      "succursale" : "J9A1R1"
+    } ],
+    "userType" : "c",
+    "username" : "josee"
+  }, {
+    "email" : "jean@hotmail.ca",
+    "password" : "1234",
+    "serviceRequests" : [ {
+      "approved" : false,
+      "inProgress" : false,
+      "serviceRequestName" : "Passeport",
+      "succursale" : "J9A1R1"
+    }, {
+      "approved" : false,
+      "inProgress" : false,
+      "serviceRequestName" : "Carte Sante",
+      "succursale" : "J9A1R1"
+    } ],
+    "userType" : "c",
+    "username" : "jean"
+  }, {
+    "email" : "client@gmail.com",
+    "password" : "1234",
+    "serviceRequests" : [ {
+      "approved" : false,
+      "inProgress" : true,
+      "serviceRequestName" : "Piece Identite",
+      "succursale" : "J8A1T3"
+    }, {
+      "approved" : false,
+      "inProgress" : true,
+      "serviceRequestName" : "Carte Sante",
+      "succursale" : "J9A1R3"
+    }, {
+      "approved" : false,
+      "inProgress" : true,
+      "serviceRequestName" : "Assurance Auto",
+      "succursale" : "J9A1R3"
+    }, {
+      "approved" : true,
+      "inProgress" : false,
+      "serviceRequestName" : "Piece Identite",
+      "succursale" : "J9A1R1"
+    }, {
+      "approved" : false,
+      "inProgress" : false,
+      "serviceRequestName" : "Passeport",
+      "succursale" : "J9A1R1"
+    } ],
+    "userType" : "c",
+    "username" : "client"
+  } ],
+  "services" : [ {
+    "address" : "true",
+    "dob" : "true",
+    "nom" : "true",
+    "photoClient" : "false",
+    "preuveDomicile" : "true",
+    "preuveStatut" : "true",
+    "serviceName" : "Carte Sante",
+    "typePermis" : "false"
+  }, {
+    "address" : "true",
+    "dob" : "true",
+    "nom" : "true",
+    "photoClient" : "true",
+    "preuveDomicile" : "true",
+    "preuveStatut" : "false",
+    "serviceName" : "Piece Identite",
+    "typePermis" : "false"
+  }, {
+    "address" : "true",
+    "dob" : "true",
+    "nom" : "true",
+    "photoClient" : "true",
+    "preuveDomicile" : "true",
+    "preuveStatut" : "true",
+    "serviceName" : "Passeport",
+    "typePermis" : "false"
+  }, {
+    "address" : "true",
+    "dob" : "true",
+    "nom" : "true",
+    "photoClient" : "false",
+    "preuveDomicile" : "true",
+    "preuveStatut" : "false",
+    "serviceName" : "Permis de conduire",
+    "typePermis" : "true"
+  }, {
+    "address" : "true",
+    "dob" : "false",
+    "nom" : "true",
+    "photoClient" : "false",
+    "preuveDomicile" : "true",
+    "preuveStatut" : "true",
+    "serviceName" : "Permis de construction",
+    "typePermis" : "false"
+  }, {
+    "address" : "true",
+    "dob" : "true",
+    "nom" : "true",
+    "photoClient" : "false",
+    "preuveDomicile" : "false",
+    "preuveStatut" : "true",
+    "serviceName" : "Service Test",
+    "typePermis" : "false"
+  } ],
+  "succursales" : [ {
+    "address" : "K1L9C8",
+    "employee" : "emp",
+    "hours" : "8-17",
+    "rating" : 5
+  }, {
+    "address" : "J8A1T3",
+    "employee" : "phil",
+    "hours" : "8-16",
+    "rating" : 4,
+    "serviceRequests" : [ {
+      "approved" : true,
+      "filledForm" : {
+        "address" : "234 rue Tjsdkf",
+        "dob" : "12-11-1980",
+        "nom" : "Paul Smith",
+        "preuveDomicile" : "serviceRequests/paul-J8A1T3-Carte Sante-preuveDomicile",
+        "preuveStatut" : "serviceRequests/paul-J8A1T3-Carte Sante-preuveStatut"
+      },
+      "inProgress" : false,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "preuveStatut" ],
+      "serviceRequestName" : "Carte Sante",
+      "serviceRequestSuccursale" : "J8A1T3",
+      "serviceRequestUsername" : "paul",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : false,
+        "preuveDomicile" : true,
+        "preuveStatut" : true,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Preuve de Statut:\n",
+        "serviceName" : "Carte Sante",
+        "typePermis" : false
+      }
+    }, {
+      "approved" : false,
+      "filledForm" : {
+        "address" : "Croneback Bog tree trunk 5",
+        "dob" : "20/08/1452",
+        "nom" : "Geralt of Rivia",
+        "photoClient" : "serviceRequests/client-J8A1T3-Piece Identite-photoClient",
+        "preuveDomicile" : "serviceRequests/client-J8A1T3-Piece Identite-preuveDomicile"
+      },
+      "inProgress" : true,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "photoClient" ],
+      "serviceRequestName" : "Piece Identite",
+      "serviceRequestSuccursale" : "J8A1T3",
+      "serviceRequestUsername" : "client",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : true,
+        "preuveDomicile" : true,
+        "preuveStatut" : false,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Photo:\n",
+        "serviceName" : "Piece Identite",
+        "typePermis" : false
+      }
+    } ],
+    "services" : [ {
+      "address" : true,
+      "dob" : true,
+      "nom" : true,
+      "photoClient" : false,
+      "preuveDomicile" : true,
+      "preuveStatut" : true,
+      "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Preuve de Statut:\n",
+      "serviceName" : "Carte Sante",
+      "typePermis" : false
+    }, {
+      "address" : true,
+      "dob" : true,
+      "nom" : true,
+      "photoClient" : true,
+      "preuveDomicile" : true,
+      "preuveStatut" : false,
+      "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Photo:\n",
+      "serviceName" : "Piece Identite",
+      "typePermis" : false
+    }, {
+      "address" : true,
+      "dob" : false,
+      "nom" : true,
+      "photoClient" : false,
+      "preuveDomicile" : true,
+      "preuveStatut" : true,
+      "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Preuve de Statut:\n",
+      "serviceName" : "Permis de construction",
+      "typePermis" : false
+    } ]
+  }, {
+    "address" : "J9A1R1",
+    "employee" : "anton",
+    "hours" : "8-16",
+    "rating" : 4,
+    "serviceRequests" : [ {
+      "approved" : false,
+      "filledForm" : {
+        "address" : "101 Rich Avenue",
+        "dob" : "01-01-1954",
+        "nom" : "Charles Barkley",
+        "preuveDomicile" : "serviceRequests/client1-J9A1R1-Carte Sante-preuveDomicile",
+        "preuveStatut" : "serviceRequests/client1-J9A1R1-Carte Sante-preuveStatut"
+      },
+      "inProgress" : false,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "preuveStatut" ],
+      "serviceRequestName" : "Carte Sante",
+      "serviceRequestSuccursale" : "J9A1R1",
+      "serviceRequestUsername" : "client1",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : false,
+        "preuveDomicile" : true,
+        "preuveStatut" : true,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Preuve de Statut:\n",
+        "serviceName" : "Carte Sante",
+        "typePermis" : false
+      }
+    }, {
+      "approved" : true,
+      "filledForm" : {
+        "address" : "198 Rich Ave.",
+        "dob" : "01-01-1954",
+        "nom" : "Charles Barkley",
+        "photoClient" : "serviceRequests/client1-J9A1R1-Piece Identite-photoClient",
+        "preuveDomicile" : "serviceRequests/client1-J9A1R1-Piece Identite-preuveDomicile"
+      },
+      "inProgress" : false,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "photoClient" ],
+      "serviceRequestName" : "Piece Identite",
+      "serviceRequestSuccursale" : "J9A1R1",
+      "serviceRequestUsername" : "client1",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : true,
+        "preuveDomicile" : true,
+        "preuveStatut" : false,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Photo:\n",
+        "serviceName" : "Piece Identite",
+        "typePermis" : false
+      }
+    }, {
+      "approved" : false,
+      "filledForm" : {
+        "address" : "32 rue Tsddgh",
+        "dob" : "01-01-1976",
+        "nom" : "Jean Jacques",
+        "photoClient" : "serviceRequests/jean-J9A1R1-Passeport-photoClient",
+        "preuveDomicile" : "serviceRequests/jean-J9A1R1-Passeport-preuveDomicile",
+        "preuveStatut" : "serviceRequests/jean-J9A1R1-Passeport-preuveStatut"
+      },
+      "inProgress" : false,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "preuveStatut", "photoClient" ],
+      "serviceRequestName" : "Passeport",
+      "serviceRequestSuccursale" : "J9A1R1",
+      "serviceRequestUsername" : "jean",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : true,
+        "preuveDomicile" : true,
+        "preuveStatut" : true,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Preuve de Statut:\n3. Photo:\n",
+        "serviceName" : "Passeport",
+        "typePermis" : false
+      }
+    }, {
+      "approved" : true,
+      "filledForm" : {
+        "address" : "56 rue Gkjsdhk",
+        "dob" : "09-11-1978",
+        "nom" : "Jdyx Kwfeh",
+        "photoClient" : "serviceRequests/jvy-J9A1R1-Piece Identite-photoClient",
+        "preuveDomicile" : "serviceRequests/jvy-J9A1R1-Piece Identite-preuveDomicile"
+      },
+      "inProgress" : false,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "photoClient" ],
+      "serviceRequestName" : "Piece Identite",
+      "serviceRequestSuccursale" : "J9A1R1",
+      "serviceRequestUsername" : "jvy",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : true,
+        "preuveDomicile" : true,
+        "preuveStatut" : false,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Photo:\n",
+        "serviceName" : "Piece Identite",
+        "typePermis" : false
+      }
+    }, {
+      "approved" : true,
+      "filledForm" : {
+        "address" : "456 Rideau St.",
+        "dob" : "01-01-1960",
+        "nom" : "John Doe",
+        "photoClient" : "serviceRequests/client-J9A1R1-Piece Identite-photoClient",
+        "preuveDomicile" : "serviceRequests/client-J9A1R1-Piece Identite-preuveDomicile"
+      },
+      "inProgress" : false,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "photoClient" ],
+      "serviceRequestName" : "Piece Identite",
+      "serviceRequestSuccursale" : "J9A1R1",
+      "serviceRequestUsername" : "client",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : true,
+        "preuveDomicile" : true,
+        "preuveStatut" : false,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Photo:\n",
+        "serviceName" : "Piece Identite",
+        "typePermis" : false
+      }
+    }, {
+      "approved" : true,
+      "filledForm" : {
+        "address" : "21 rue Hafkdjk",
+        "dob" : "10-01-1910",
+        "nom" : "Josee James",
+        "photoClient" : "serviceRequests/josee-J9A1R1-Piece Identite-photoClient",
+        "preuveDomicile" : "serviceRequests/josee-J9A1R1-Piece Identite-preuveDomicile"
+      },
+      "inProgress" : false,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "photoClient" ],
+      "serviceRequestName" : "Piece Identite",
+      "serviceRequestSuccursale" : "J9A1R1",
+      "serviceRequestUsername" : "josee",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : true,
+        "preuveDomicile" : true,
+        "preuveStatut" : false,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Photo:\n",
+        "serviceName" : "Piece Identite",
+        "typePermis" : false
+      }
+    }, {
+      "approved" : false,
+      "filledForm" : {
+        "address" : "21 rue Tsdhsdhf",
+        "dob" : "01-01-1976",
+        "nom" : "Jean Jacques",
+        "preuveDomicile" : "serviceRequests/jean-J9A1R1-Carte Sante-preuveDomicile",
+        "preuveStatut" : "serviceRequests/jean-J9A1R1-Carte Sante-preuveStatut"
+      },
+      "inProgress" : false,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "preuveStatut" ],
+      "serviceRequestName" : "Carte Sante",
+      "serviceRequestSuccursale" : "J9A1R1",
+      "serviceRequestUsername" : "jean",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : false,
+        "preuveDomicile" : true,
+        "preuveStatut" : true,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Preuve de Statut:\n",
+        "serviceName" : "Carte Sante",
+        "typePermis" : false
+      }
+    }, {
+      "approved" : false,
+      "filledForm" : {
+        "address" : "13 rue Tsjsghsdf",
+        "dob" : "01-12-1981",
+        "nom" : "Client Nom",
+        "photoClient" : "serviceRequests/client-J9A1R1-Passeport-photoClient",
+        "preuveDomicile" : "serviceRequests/client-J9A1R1-Passeport-preuveDomicile",
+        "preuveStatut" : "serviceRequests/client-J9A1R1-Passeport-preuveStatut"
+      },
+      "inProgress" : false,
+      "requiredInfo" : [ "nom", "dob", "address", "preuveDomicile", "preuveStatut", "photoClient" ],
+      "serviceRequestName" : "Passeport",
+      "serviceRequestSuccursale" : "J9A1R1",
+      "serviceRequestUsername" : "client",
+      "sourceService" : {
+        "address" : true,
+        "dob" : true,
+        "nom" : true,
+        "photoClient" : true,
+        "preuveDomicile" : true,
+        "preuveStatut" : true,
+        "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Preuve de Statut:\n3. Photo:\n",
+        "serviceName" : "Passeport",
+        "typePermis" : false
+      }
+    } ],
+    "services" : [ {
+      "address" : true,
+      "dob" : true,
+      "nom" : true,
+      "photoClient" : true,
+      "preuveDomicile" : true,
+      "preuveStatut" : false,
+      "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Photo:\n",
+      "serviceName" : "Piece Identite",
+      "typePermis" : false
+    }, {
+      "address" : true,
+      "dob" : true,
+      "nom" : true,
+      "photoClient" : false,
+      "preuveDomicile" : true,
+      "preuveStatut" : true,
+      "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Preuve de Statut:\n",
+      "serviceName" : "Carte Sante",
+      "typePermis" : false
+    }, {
+      "address" : true,
+      "dob" : true,
+      "nom" : true,
+      "photoClient" : false,
+      "preuveDomicile" : true,
+      "preuveStatut" : false,
+      "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\n4. Type de Permis:\nDocuments necessaires:\n1. Preuve de Domicile:\n",
+      "serviceName" : "Permis de conduire",
+      "typePermis" : true
+    }, {
+      "address" : true,
+      "dob" : true,
+      "nom" : true,
+      "photoClient" : true,
+      "preuveDomicile" : true,
+      "preuveStatut" : true,
+      "serviceDescription" : "Formulaire a remplir:\n1. Nom:\n2. Date de Naissance:\n3. Addresse:\nDocuments necessaires:\n1. Preuve de Domicile:\n2. Preuve de Statut:\n3. Photo:\n",
+      "serviceName" : "Passeport",
+      "typePermis" : false
+    } ]
+  }, {
+    "address" : "ADWADAWDWA",
+    "employee" : "xewop42796@1heizi.com",
+    "hours" : "1-2",
+    "rating" : 5
+  } ],
+  "waker" : "42"
+}

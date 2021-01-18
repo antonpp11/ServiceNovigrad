@@ -1,5 +1,5 @@
-# projet-group2
-projet-group2 created by GitHub Classroom
+# Service Novigrad
+Service Novigrad created by GitHub Classroom
 
 
 This is an Android app that I built for a school project. I managed to familiarize myself with Android Studio using Java.
